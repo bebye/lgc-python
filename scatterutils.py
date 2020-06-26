@@ -14,4 +14,5 @@ def show_scatter_spirals(x, y, title, is_init=False):
 
     plt.title(title)
     plt.legend()
+    plt.savefig('lgc_'+title)
     plt.show()
